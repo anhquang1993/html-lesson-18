@@ -1,0 +1,23 @@
+bài 18: HTML Table: Tạo bảng cho website
+
+Tạo bảng : dùng thẻ Table
+  <tr> : hàng ngang
+  <td> : cột
+  boder: viền khung(pixel :px,pecent : %)
+  colspan: trộn hàng ngang
+  rowspan: trộn cột
+<table >
+    <tr   boder="1"  width="200" >   
+        <td width="30%" colspan="2" >1</td>    
+        <td width="70%" >2</td>
+        <td>3</td>
+    </tr>        
+        <td rowspan="2" >4</td>    
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    </tr>        
+        <td>8</td>    
+        <td>9</td>
+    </tr>
+
